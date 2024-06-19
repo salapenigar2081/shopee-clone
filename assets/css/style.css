@@ -1,0 +1,99 @@
+:root {
+  --primary: #ee4d2d;
+}
+body {
+  background-color: var(--primary);
+  margin: 0;
+  padding: 0;
+}
+.header {
+}
+.container,
+.container-fluid {
+  padding: 0;
+}
+.header_logo {
+  height: 60px;
+  width: auto !important;
+}
+.help_link a {
+  color: var(--primary);
+}
+.content {
+  height: 600px;
+}
+.content_logo {
+  width: 300px;
+  filter: brightness(100);
+}
+.qr-modal-login {
+  height: 60px;
+  position: relative;
+  background-color: #fefaec;
+}
+.qr-image {
+  width: 50px;
+  height: 50px;
+}
+.modal-login {
+  position: relative;
+}
+.modal-login::after {
+  right: -10px;
+  top: 20px;
+  background-color: #fefaec;
+  border-top: 3px solid #ffc107;
+  border-right: 3px solid #ffc107;
+  z-index: 10;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+}
+.form-control__password{
+  border-right: 0 ;
+}
+.input-group-text{
+  border-left: 0;
+}
+.btn_login, .btn_login:hover, .btn_login:active, .btn_login:focus{
+  background-color: var(--primary);
+}
+.line{
+  height: 1px;
+}
+.line-group{
+  position: relative;
+}
+.line-group::after{
+  content: "HOẶC";
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  left: calc(50% - 30px);
+  top: -15px ;
+}
+.fa-facebook{
+  color: #1877f2;
+}
+.fa-google{
+  color: red;
+}
+.btn_register{
+  color: var(--primary);
+}
+.modal_register{
+  width: 420px;
+}
+.col-custom {
+  margin: 0;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.footer{
+  background-color: #f5f5f5;
+}
